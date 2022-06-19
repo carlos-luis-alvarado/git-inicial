@@ -42,6 +42,22 @@ En Git tenemos tres area de trabajo dentro de un repositorio local:
     git branch
     Cambiar de rama 
     git switch nombre
+    Mostrar las Diferencias 
+    git diff
+    git diff master dev
+    Borrar rama  (siempre posicionado desde otra rama)
+    git brach -d nombre-de-rama (si tenemos un commit en la rama que vamos a borrar , git no va a dejar borrar la rama, para borrarla usamos D en lugar de d)
+    Mostrar las ramas de forma verbosa(?)
+    git branch -av
+    Para hacer un merge debemos estar posicionado en la rama que va a recibir la informacion
+    git merge nombre-de-rama
+    Si el codigo no se superpone o colisiona (codigo escrito en la misma linea) se realiza un merch(fusion) de tipo fast-foward
+    hay varias forma de fusion
+
+
+
+
+
 
 
 -->
@@ -59,7 +75,7 @@ En Git tenemos tres area de trabajo dentro de un repositorio local:
     <p>Chau mundo</p>
     <h2>Hola mundo desde dev</h2>
     <nav>
-        Hola que tal
+        Hola que tal 123
     </nav>
 </body>
 </html>

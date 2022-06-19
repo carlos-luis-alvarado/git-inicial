@@ -1,8 +1,20 @@
 
-<!--Git s -->
+<!--Git init -->
 <!--Git satatus : Archivos que quisiera poner dentro del repositorio-->
 <!--Untracket : Archivos que Git no esta siguiendo
-
+En Git tenemos tres area de trabajo dentro de un repositorio local:
+    working directory: Todos los archivos dentro de la carpeta del proyecto (la carpteta que habrimos con VSCode)
+    staging area(area intermedia): Aqui los archivos ya se pueden empezar a commitear(commit)
+    git add . -> no es una buane practica, ya que agremamos todo y el commit no va a tener mucho sentido
+    Antracked : 
+    Los cambios estan preparados para hacer un commit . Esta listo para pasar de un staging area a git repository(repository)
+    git commit -m "Mensaje" -> sacamos la foto y -m para indicar un mensaje
+    Git repository(repsotorio): 
+    git log -> para ver los commits (informacion)
+    git config --global user.name "nombre"
+    git config --global user.email "email@email.com" (recomendable el mismo que usa la cuenta de github)
+    git status indica el estado del working directory(despues de un commit va a estar sin cambios)
+    git log --oneline muestra un reusmen de los commits
 
 -->
 <!DOCTYPE html>
@@ -15,5 +27,6 @@
 </head>
 <body>
     <h1>Hola mundo</h1>
+    <p>Chau mundo</p>
 </body>
 </html>
